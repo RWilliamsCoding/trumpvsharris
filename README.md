@@ -79,10 +79,13 @@ I also wanted to keep the reasoning for the site obvious, in the interest of UX,
 
 Wireframes were created for mobile, tablet & also desktop computers, using the Balsamiq app.
 
-![Home Page](XXX)
-![Trump Page](XXX)
-![Kamala Page](XXX)
-![Contact Page](XXX)
+![Home Page](documentation/wireframes/wireframehome.png)
+
+![Kamala Page](documentation/wireframes/wireframekamala.png)
+
+![Trump Page](documentation/wireframes/wireframetrump.png)
+
+![Poll Page](documentation/wireframes/wireframepoll.png)
 
 ### Features
 
@@ -92,7 +95,7 @@ All pages are responsive from XXpx to XXpx and have:
 
 * A favicon in the browser tab
    
-  ![favicon](XXX)
+  ![favicon](documentation/favicon/usflagicon.png)
 
 * The nav bar at the top of the page, so as to show what page the user is on & also ways to get back to different pages.
 
