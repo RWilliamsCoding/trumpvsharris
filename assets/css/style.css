@@ -8,19 +8,19 @@ body{
 }
 
 /* ------------------Main Properties-- */
-/* ------------------Colors-- */
-
-
-
-/* ------------------./Colors-- */
 
 
 /* ------------------Images-- */
 .hero-image-flag {
     margin: 0;
     padding: 0;
-    height:30vh;
+    height:50vh;
     width:100%;
+    position: relative;
+    position: top;
+    z-index: 1;
+    
+ 
 }
 
 /* ------------------./Images-- */
@@ -28,51 +28,64 @@ body{
 /* ------------------Nav Bar-- */
 .nav-bar {
     display: flex;
-    border: 2px solid lightgray ;
+    border: 5px solid;
+    border-image: linear-gradient(to right, red, blue) 1;
     list-style: none;
     justify-content:space-evenly;
     padding: 0;
     margin: 0;
 }
 
-.home-nav {
+.nav-bar a {
+    text-decoration: none;
+}
+
+.home-nav a {
     color: red;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
-.kamala-nav {
+.kamala-nav a {
     color: blue;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
-.trump-nav {
+.trump-nav a {
     color: red;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
-.poll-nav {
+.poll-nav a {
     color: blue;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .home-nav a:hover{
-    background-color: blue;
+    color: blue;
 }
 
 .kamala-nav a:hover{
-    background-color: red;
+    color: red;
 }
 
 .trump-nav a:hover{
-    background-color: blue;
+    color: blue;
 }
 
 .poll-nav a:hover{
-    background-color: red;
+    color: red;
 }
-
 /* ------------------./Nav Bar-- */
+
+/* ------------------ Footer -- */
+
+footer {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: linear-gradient(to right, red, blue) 1;
+}

@@ -230,7 +230,7 @@ Please refer to [XXX](XXX) file for all the testing I have carried out. In the i
 | No. | Bug | How I removed the bug
 | :--- | :--- | :--- |
 | 1 | Hero image wouldnt change width. | removed margin and padding then re-applied css rules to resolve.
-| 2 | XXX.
+| 2 | Can't get nav links to change color and remove underline. | 
 | 3 | XXX.
 | 4 | XXX.
 | 5 | XXX.
