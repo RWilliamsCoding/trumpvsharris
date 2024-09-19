@@ -9,27 +9,43 @@ body {
     line-height: 1.6;
 }
 
-/* ------------------Header-- */
-
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 /* ------------------Images-- */
 .us-flag {
-    margin: 50px 0 100px 0;
+    display: flex;
+    margin: 50px 0 50px 0;
     padding: 0;
-    height: 75vh;
+    height: 50vh;
     width: 100%;
-    clear: both;
 }
 
-#hero-image {
+/* #hero-image {
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards; 
-}
+    animation-fill-mode: forwards;
+    overflow: hidden; 
+} 
 
 @keyframes hero-zoom {
     from{transform: scale(1);}
     to {transform: scale(1.1);}
+} */
+
+.face-off {
+    display: flex;
+    justify-content: space-between;
+}
+
+.face-off img {
+    height: 650px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
 }
 
 /* ------------------ Logo -- */
@@ -46,13 +62,17 @@ body {
 
 /* ------------------Nav Bar-- */
 .nav-bar {
-    display: inline-flex;
-    float: right;
+    display: flex;
     list-style: none;
-    justify-content: right;
-    gap: 100px;
+    justify-content:right;
+    float: right;
+    gap: 50px;
     padding: 0;
-    margin: 75px 30px 20px 50px;
+    margin: 75px 0px 20px 50px;
+}
+
+.nav-bar a {
+    text-decoration: none;
 }
 
 .active {
@@ -60,56 +80,48 @@ body {
     border-image: linear-gradient(to right, red, blue) 1;
 }
 
-.nav-bar a {
-    text-decoration: none;
-}
-
-.home-nav a {
+.nav-red a {
     color: red;
     font-size: 24px;
     font-weight: 400;
 }
 
-.kamala-nav a {
+.nav-blue a {
     color: blue;
     font-size: 24px;
     font-weight: 400;
 }
 
-.trump-nav a {
-    color: red;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.poll-nav a {
-    color: blue;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.home-nav a:hover {
+.nav-red a:hover {
     color: blue;
 }
 
-.kamala-nav a:hover {
+.nav-blue a:hover {
     color: red;
 }
 
-.trump-nav a:hover {
-    color: blue;
-}
+/* ------------------- Tale Of The Tape Grid -- */
 
-.poll-nav a:hover {
-    color: red;
+.tale-of-tape-container {
+    background-color: #5b5555;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    line-height: 5.5;
 }
 
 /* ------------------ Footer -- */
 
 .social-networks {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     clear: both;
+    width: 100%;
+    gap: 50px;
+    font-size: 30px;
     text-decoration: none;
     background-color: #5b5555
 }
@@ -117,51 +129,3 @@ body {
 .social-networks a {
     text-decoration: none;
 }
-
--------------------------------------
-
-  .face-off {
-    display: flex;
-    margin: 20px;
-  }
-  
-  .trump-faceoff {
-    justify-content:left;
-    margin: 0 20px;
-  }
-  
-  .trump-faceoff img {
-    border-radius: 10px;
-    height: 863px;
-  }
-
-  .kamala-faceoff {
-    justify-content:right;
-    margin: 0 20px;
-  }
-  
-  .kamala-faceoff img {
-    border-radius: 10px;
-    width: 518px;
-  }
-  
-  /* .tale-of-tape {
-    width: 300px;
-    border-collapse: collapse;
-  }
-  
-  .tale-of-tape th, .tale-of-tape td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .tale-of-tape th {
-    background-color: #f4f4f4;
-  }
-  
-  .tale-of-tape td {
-    background-color: #f9f9f9;
-  }   */
