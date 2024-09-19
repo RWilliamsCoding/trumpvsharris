@@ -52,7 +52,7 @@ body {
     justify-content: right;
     gap: 100px;
     padding: 0;
-    margin: 75px 30px 0px 50px;
+    margin: 75px 30px 20px 50px;
 }
 
 .active {
@@ -117,3 +117,51 @@ body {
 .social-networks a {
     text-decoration: none;
 }
+
+-------------------------------------
+
+  .face-off {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .trump-faceoff {
+    justify-content:left;
+    margin: 0 20px;
+  }
+  
+  .trump-faceoff img {
+    border-radius: 10px;
+    height: 863px;
+  }
+
+  .kamala-faceoff {
+    justify-content:right;
+    margin: 0 20px;
+  }
+  
+  .kamala-faceoff img {
+    border-radius: 10px;
+    width: 518px;
+  }
+  
+  /* .tale-of-tape {
+    width: 300px;
+    border-collapse: collapse;
+  }
+  
+  .tale-of-tape th, .tale-of-tape td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tale-of-tape th {
+    background-color: #f4f4f4;
+  }
+  
+  .tale-of-tape td {
+    background-color: #f9f9f9;
+  }   */
