@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* ------------------Main Properties-- */
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    border: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 1393px;
-    margin: 0 auto;
+body {
+    font-family: "Roboto", sans-serif;
+    color: #5b5555;
 }
 
 /* ------------------Images-- */
@@ -20,7 +17,7 @@ body {
     display: flex;
     margin: 50px 0 10px 0;
     padding: 0;
-    height: 50vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -41,22 +38,21 @@ body {
     float: left;
     text-decoration: none;
     letter-spacing: 4px;
-    border-bottom: 5px solid;
+    border-bottom: 3px solid;
     border-image: linear-gradient(to right, red, blue) 1;
     color: #5b5555;
     font-size: 380%;
-    margin: 39px 30px 0px 0px;
+    margin: 30px;
 }
 
 /* ------------------Nav Bar-- */
 .nav-bar {
     display: flex;
     list-style: none;
-    justify-content:right;
-    float: right;
+    float:right;
     gap: 50px;
     padding: 0;
-    margin: 75px 0px 20px 50px;
+    margin: 75px 30px 0px 0px;
 }
 
 .nav-bar a {
@@ -64,7 +60,7 @@ body {
 }
 
 .active {
-    border-bottom: 5px solid;
+    border-bottom: 3px solid;
     border-image: linear-gradient(to right, red, blue) 1;
 }
 
@@ -91,33 +87,40 @@ body {
 /* ------------------- Home Page Fonts-- */
 
 .website-purpose {
-    display: flex;
-    
-}
-
-.website-purpose p {
-    color: #5b5555;
-    font-size: 24px;
-    font-weight: 400;
-    width: 100%;
-    justify-content: center;
+    margin: 20px 0;
     text-align: center;
+    font-size: 280%;
 }
 
 /* ------------------ Footer -- */
 
 .footer-nav {
     display: flex;
-    justify-content:center;
-    clear: both;
-    width: 100%;
-    gap: 50px;
-    font-size: 30px;
-    text-decoration: none;
-    
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 32px;
 }
 
-.footer-nav a {
+.footer-nav i {
     text-decoration: none;
-    color: #5b5555
+    font-size: 160%;
+}
+
+.footer-nav .facebook {
+    color: #4267B2;
+}
+
+.footer-nav .x {
+    color:#000
+}
+
+.footer-nav .youtube {
+    color: #FF0000;
+}
+
+.footer-nav .insta {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    transition: transform 0.3s ease
 }
