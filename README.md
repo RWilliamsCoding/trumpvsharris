@@ -231,7 +231,7 @@ Please refer to [XXX](XXX) file for all the testing I have carried out. In the i
 | :--- | :--- | :--- |
 | 1 | Hero image wouldnt change width. | removed margin and padding then re-applied css rules to resolve.
 | 2 | Can't get nav links to change color and remove underline. | 
-| 3 | XXX.
+| 3 | Bullet points not showing up on page. | Realised that * CSS rule was applying margin and padding to the whole page. Knowing that unordered and ordered     lists require margin I removed this ruling.
 | 4 | XXX.
 | 5 | XXX.
 
