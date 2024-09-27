@@ -86,6 +86,49 @@ body {
     font-size: 280%;
 }
 
+/* ------------------- Home Page About-- */
+
+#kamala-left {
+   float: left;
+   padding-top: 30px;
+   width: 33%;
+}
+
+#trump-right {
+    float: right;
+    padding-top: 30px;
+    width: 33%;
+}
+
+#center-face-off {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #5b5555;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.kamala-left-heading {
+    width: 70%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.trump-right-heading {
+    width: 70%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
 /* ------------------ Footer -- */
 
 .footer-nav {
@@ -98,6 +141,11 @@ body {
 .footer-nav i {
     text-decoration: none;
     font-size: 160%;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .footer-nav .facebook {
