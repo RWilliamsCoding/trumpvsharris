@@ -132,7 +132,7 @@ hr {
 /* ------------------ Footer -- */
 
 .footer-nav {
-    display: flex;
+    display:flex;
     justify-content:space-evenly;
     align-items: center;
     font-size: 32px;
@@ -142,7 +142,6 @@ hr {
     text-decoration: none;
     font-size: 160%;
     margin-top: 50px;
-    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 1000;
@@ -164,5 +163,6 @@ hr {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
+    color: #dc2743;
     transition: transform 0.3s ease
 }
