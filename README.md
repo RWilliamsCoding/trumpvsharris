@@ -232,7 +232,7 @@ Please refer to [XXX](XXX) file for all the testing I have carried out. In the i
 | 1 | Hero image wouldnt change width. | removed margin and padding then re-applied css rules to resolve.
 | 2 | Can't get nav links to change color and remove underline. | 
 | 3 | Bullet points not showing up on page. | Realised that * CSS rule was applying margin and padding to the whole page. Knowing that unordered and ordered     lists require margin I removed this ruling.
-| 4 | XXX.
+| 4 | CSS styling rules weren't showing. | had to try and change different elements to trial and error of where I was going wrong, targeted footer i elements rather than div class.
 | 5 | XXX.
 
 ### Known Bugs
