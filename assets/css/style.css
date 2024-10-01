@@ -4,6 +4,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #5b5555;
+    height: 100%;
 }
 
 /* ------------------Images-- */
@@ -131,20 +132,22 @@ hr {
 
 /* ------------------ Footer -- */
 
-.footer-nav {
-    display:flex;
-    justify-content:space-evenly;
-    align-items: center;
-    font-size: 32px;
-}
-
-.footer-nav i {
-    text-decoration: none;
-    font-size: 160%;
-    margin-top: 50px;
+footer {
+    position: relative;
     bottom: 0;
     width: 100%;
-    z-index: 1000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 32px;
+    clear: both;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+    font-size: 160%;
 }
 
 .footer-nav .facebook {
