@@ -233,7 +233,7 @@ Please refer to [XXX](XXX) file for all the testing I have carried out. In the i
 | 2 | Can't get nav links to change color and remove underline. | 
 | 3 | Bullet points not showing up on page. | Realised that * CSS rule was applying margin and padding to the whole page. Knowing that unordered and ordered     lists require margin I removed this ruling.
 | 4 | CSS styling rules weren't showing. | had to try and change different elements to trial and error of where I was going wrong, targeted footer i elements rather than div class.
-| 5 | XXX.
+| 5 | Whole about section needed styling as layout was wrong | after being stuck for weeks i decided to wrap the headings (pros and cons), the bullet points and the faceoff image in completely separate div elements. i then wrapped the whole section in a container and gave that a flex display and styled the individual divs seperately from there.
 
 ### Known Bugs
 
