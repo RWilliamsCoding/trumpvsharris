@@ -91,34 +91,28 @@ body {
 
 #candidates-section {
     display: flex;
-    margin: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 20px;
 }
 
 #kamala-about {
    float: left;
    width: 25%;
-}
-
-.kamala-body {
-    display: inline-block;
-    margin: 0;
-    line-height: 20px;
-}
-
-.trump-body {
-    display: inline-block;
-    margin: 0;
-    line-height: 20px;
+   flex:1;
+   margin: 0 100px 0 0;
 }
 
 #trump-about {
-    float: left;
+    float: right;
     width: 25%;
+    flex: 1;
+    margin: 0 0 0 100px;
 }
 
 #center-face-off {
-    width: 33%;
-    margin:auto;
+    width:33%;
+    margin: auto;
 }
 
 hr {
@@ -129,16 +123,52 @@ hr {
 
 .kamala-left-heading {
     width: 100%;
+    height: 50px;
     text-align: right;
     line-height: 20px;
     color: #385ab5;
 }
 
 .trump-right-heading {
-    width: 70%;
+    width: 100%;
+    height: 50px;
     text-align: left;
     line-height: 20px;
     color: #c6192d;
+}
+
+.kamala-body .trump-body {
+    display: inline-block;
+    margin: 0;
+    line-height: 20px;
+}
+
+/* ------------------ Scrolling Banner -- */
+
+.scrolling-banner{
+    width:100%;
+    background-color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px 0;
+}
+
+.scrolling-banner p {
+    display: inline-block;
+    font-size: 64px;
+    color: #385ab5;
+    animation-direction: scroll-left;
+    animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 /* ------------------ Footer -- */
