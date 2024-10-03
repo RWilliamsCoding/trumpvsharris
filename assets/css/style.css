@@ -60,31 +60,35 @@ body {
 }
 
 .nav-red a {
-    color: red;
+    color: #c6192d;
     font-size: 24px;
     font-weight: 400;
 }
 
 .nav-blue a {
-    color: blue;
+    color: #385ab5;
     font-size: 24px;
     font-weight: 400;
 }
 
 .nav-red a:hover {
-    color: blue;
+    color: #385ab5;
 }
 
 .nav-blue a:hover {
-    color: red;
+    color: #c6192d;
 }
 
-/* ------------------- Home Page Fonts-- */
+/* ------------------- Website Purpose -- */
 
-.website-purpose {
-    margin: 20px 0 50px 0;
-    text-align: center;
-    font-size: 280%;
+.homepage-purpose {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+    background-color: #000;
+    color: #fff;
 }
 
 /* ------------------- Home Page About-- */
@@ -116,7 +120,8 @@ body {
 }
 
 hr {
-    border-top: 1px solid #5b5555;
+    border-top: 1px solid;
+    border-image: linear-gradient (to right, red, blue)1;
     width: 100%;
     margin: 5px 0;
 }
