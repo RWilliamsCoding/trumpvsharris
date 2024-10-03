@@ -93,7 +93,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0 20px;
+    margin: 100px 20px;
 }
 
 #kamala-about {
@@ -145,21 +145,57 @@ hr {
 
 /* ------------------ Scrolling Banner -- */
 
-.scrolling-banner{
+#banner{
+    display: flex;
     width:100%;
-    background-color: #fff;
+    height: fit-content;
+    background-color: #385ab5;
     overflow: hidden;
     white-space: nowrap;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    padding: 10px 0;
+    padding: 0;
+    position: relative;
+}
+
+#banner p {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+
+.scrolling-banner-left {
+    width: 28%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6192d;
+    z-index: 1;
+}
+
+.scrolling-banner-left p {
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+}
+
+.scrolling-banner {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
 }
 
 .scrolling-banner p {
-    display: inline-block;
-    font-size: 64px;
-    color: #385ab5;
-    animation-direction: scroll-left;
-    animation: scroll-left 15s linear infinite;
+    font-size: 32px;
+    color: #fff;
+    animation: scroll-left 20s linear infinite;
+    z-index: 0;
+    position: relative;
+    white-space: nowrap;
 }
 
 @keyframes scroll-left {
