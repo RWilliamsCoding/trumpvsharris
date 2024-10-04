@@ -2,14 +2,17 @@
 <html lang="en-US">
 
 <head>
+    <!-- Meta information and linking stylesheets -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description"
         content="an insight into the United States 2024 election candidates including fact checks and references" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap, Font Awesome and CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/70a342556b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="/documentation/favicon/favicon.ico" type="icon">
 
@@ -17,49 +20,83 @@
 </head>
 
 <body>
-    <!-- Nav -->
-    <header>
-        <a href="index.html">
-            <h2 id="logo">US Election 2024</h2>
-        </a>
-        <nav>
-            <ul id="menu" class="nav-bar">
-                <li class="home-nav">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="kamala-nav active">
-                    <a href="harris.html">Kamala</a>
-                </li>
-                <li class="trump-nav">
-                    <a href="trump.html">Trump</a>
-                </li>
-                <li class="poll-nav">
-                    <a href="poll.html">Poll</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div>
+        <!-- Header with logo and navigation -->
+        <header>
+            <!-- Logo -->
+            <a href="index.html">
+                <h2 id="logo">US Election 2024</h2>
+            </a>
 
-    <!-- Hero Image -->
-    <div class="nav-container">
-        <img class="us-flag" src="assets/images/usflag.jpeg" alt="Image of a broken United States of America Flag">
-    </div>
+            <!-- Navigation bar -->
+            <nav>
+                <ul id="menu" class="nav-bar">
+                    <li class="nav-red">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-blue active">
+                        <a href="harris.html">Kamala</a>
+                    </li>
+                    <li class="nav-red">
+                        <a href="trump.html">Trump</a>
+                    </li>
+                    <li class="nav-blue">
+                        <a href="poll.html">Poll</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Flag Image Section-->
+        <div id="kamala-hero-img">
+            <img class="harris-walz-logo" src="assets/images/harris-walz-campaign-logo.jpg"
+                alt="Image of the Kamala Harris and Tim Walz campain logo.">
+        </div>
+        
+        <!-- Introduction Section -->
+        <div class="kamala-slogans">
+            <div class="slogan-one"> Kamala Harris For The People</div>
+            <div class="slogan-two"> Harris / Walz For The Country</div>
+            <div class="slogan-three"> A Voice For America</div>
+        </div>
+
+        <!-- About Section -->
+    <section id="kamala-profile">
+            
+    </section>
     
-    <section></section>
-    <section></section>
-    
+    <!-- Scrolling Banner Section -->
+    <section id="banner">
+            <div class="scrolling-banner-left">
+                <p>BREAKING NEWS!</p>
+            </div>
+            <div class="scrolling-banner">
+                <p>Kamala Harris Wins Debate against Donald Trump.   |    "They're Eating The Dogs" - DJT    |    Kamala Promises We're Not Going Back</p>
+        </div>
+    </section>
+
+    <!-- Footer Section with Social Media Links & Audio Player -->
     <footer>
-        <div class="social-networks">
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="footer-nav">
+            <a class="facebook" href="https://www.facebook.com" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a class="x" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="youtube" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a class="insta" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
+    </div>
 
-    <script src="https://kit.fontawesome.com/70a342556b.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <!-- Javascript: jQuery, Popper.js and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
