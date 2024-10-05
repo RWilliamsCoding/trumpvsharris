@@ -235,7 +235,7 @@ Please refer to [XXX](XXX) file for all the testing I have carried out. In the i
 | 4 | CSS styling rules weren't showing. | had to try and change different elements to trial and error of where I was going wrong, targeted footer i elements rather than div class.
 | 5 | Whole about section needed styling as layout was wrong | after being stuck for weeks i decided to wrap the headings (pros and cons), the bullet points and the faceoff image in completely separate div elements. i then wrapped the whole section in a container and gave that a flex display and styled the individual divs seperately from there.
 | 6 | Cant get the "BREAKING NEWS!" text to not scroll and just sit in the red div, along with having the "News Text" to scroll behind the red box. | fixed the scrolling behind by applying absolute positioning and setting z-index's to both properties prioritising the BREAKING NEWS!. fixed the static text by wrapping the elements in individual divs. previously i was targeting .scrolling-banner p and then also trying to target scrolling-banner-left p which was nested inside the scrolling-baner div. 
-| 7 | 
+| 7 | Cant get carousel buttons and indicators to show up as background color white and indicators are white. when changing background color and size it offsets the buttons and indicators | 
 
 ### Known Bugs
 
