@@ -29,7 +29,7 @@ body {
     padding: 0;
 }
 
-#kamala-hero-img {
+#candidate-hero-img {
     display: flex;
     position: relative;
     right: 5%;
@@ -112,7 +112,7 @@ body {
 
 /* ----------------------------- Kamala Slogans Section-- */
 
-.kamala-slogans {
+.candidate-slogans {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -122,7 +122,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.kamala-slogans div {
+.candidate-slogans div {
     color: #fff;
     font-size: 24px;
 }
@@ -185,7 +185,7 @@ hr {
 }
 
 /* ------------------------------ Kamala Page About Section -- */
-#kamala-profile {
+#candidate-profile {
     display: flex;
 }
 
@@ -283,19 +283,9 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #fff;
-    text-align: center;
     font-size: 32px;
-    clear: both;
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-info {
-    display: flex;
-    float: left;
-    align-items: center;
-    flex-grow: 1;
 }
 
 .footer-nav {
@@ -304,7 +294,6 @@ footer {
     align-items:center;
     gap: 75px;
     font-size: 160%;
-    flex-grow: 2;
 }
 
 .footer-nav .facebook {
