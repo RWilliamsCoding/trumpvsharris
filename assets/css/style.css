@@ -40,6 +40,11 @@ body {
 
 .harris-walz-logo {
     overflow: hidden;
+    margin-top: 30px;
+}
+
+#candidate-hero-img .trump-vance-logo {
+    margin-top: 100px;
 }
 
 /* ------------------ Website Logo (US Election 2024) -- */
