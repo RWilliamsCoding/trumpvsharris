@@ -195,7 +195,7 @@ hr {
     line-height: 20px;
 }
 
-/* ------------------------------ Kamala Page About Section -- */
+/* ------------------------------ Kamala and Trump Page About Section -- */
 #candidate-profile {
     display: flex;
 }
@@ -289,19 +289,7 @@ hr {
 
 /* -------------------------------------------- Form Page -- */
 
-.form-container {
-    width: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-form {
-    display: block;
-    padding: 20px;
-    border-radius: 5px;
-    clear: both;
-}
 
 /* -------------------------------------------- Footer -- */
 
