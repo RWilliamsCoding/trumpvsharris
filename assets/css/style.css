@@ -223,6 +223,16 @@ hr {
     margin: 5px;
 }
 
+.kamala-body a {
+    text-decoration: none;
+    color: #154fd7;
+}
+
+.trump-body a {
+    text-decoration: none;
+    color: #c6192d;
+}
+
 /* ---------------------------------- Scrolling Banner -- */
 
 #banner{
