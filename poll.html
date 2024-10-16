@@ -54,7 +54,7 @@
         </div>
         
         <!-- Form Section-->
-    <section class="form-container">
+    <section class="form-container" id="poll-form">
       <form>
         <div class="form-group row">
           <label for="fname" class="col-sm-2 col-form-label">First Name:</label>
@@ -62,21 +62,21 @@
             <input type="text" class="form-control" id="fname" placeholder="First Name" required>
           </div>
         </div>
-        <div class="form-group row"></div>
+        <div class="form-group row">
           <label for="lname" class="col-sm-2 col-form-label">Last Name:</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="lname" placeholder="Email" required>
+            <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
           </div>
         </div>
         <div class="form-group row">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
           <div class="col-sm-10">
             <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
           </div>
         </div>
         <fieldset class="form-group">
           <div class="row">
-            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+            <div class="col-form-label col-sm-2 pt-0 poll-label">Select who you would now vote for!</div>
             <div class="col-sm-10">
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" required>
@@ -100,19 +100,8 @@
           </div>
         </fieldset>
         <div class="form-group row">
-          <div class="col-sm-2">Checkbox</div>
           <div class="col-sm-10">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck1">
-              <label class="form-check-label" for="gridCheck1">
-                Example checkbox
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary btn-poll">Submit</button>
           </div>
         </div>
       </form>
