@@ -47,10 +47,14 @@ body {
 .harris-walz-logo {
     overflow: hidden;
     margin-top: 30px;
+    height: auto;
+    width: 100%;
 }
 
 .trump-vance-logo {
     margin-top: 100px;
+    height: auto;
+    width: 100%;
 }
 
 /* ------------------ Website Logo (US Election 2024) -- */
@@ -167,11 +171,16 @@ body {
     margin: auto;
 }
 
-hr {
-    border-top: 1px solid;
-    border-image: linear-gradient (to right, red, blue)1;
-    width: 100%;
-    margin: 5px 0;
+.kamala-hr {
+    border: 1px solid #154fd7;
+    margin: 0;
+    padding: 0;
+}
+
+.trump-hr {
+    border: 1px solid #c6192d;
+    margin: 0;
+    padding: 0;
 }
 
 .kamala-left-heading {
@@ -377,6 +386,10 @@ footer {
     transition: transform 0.3s ease
 }
 
+.scrolling-banner-left br {
+    display: none;
+}
+
 /* ---------------------- MOBILE AND TABLET VIEW ------------------------ */
 
 @media (max-width: 1080px) {
@@ -451,13 +464,14 @@ footer {
         text-align: center;
     }
 
-    #carouselIndicators {
-        margin-top: 100px;
-        margin-bottom: 100px;
+    .trump-carousel {
+        width: 100%;
+        margin: 0 0 0 35px;
     }
 
-    #banner {
-        margin-top: 15px;
+    .kamala-carousel {
+        width: 100%;
+        margin: 0 40px 0 0 !important;
     }
 
     .scrolling-banner-left p, .scrolling-banner p{
@@ -471,21 +485,32 @@ footer {
     }
 
     .left-side img {
-        display:block;
-        width: 100%;
-        margin: 0;
-        padding: 0;
+        display: none;
     }
 
-}
+    #carouselIndicators {
+        width: 100%;
+        margin: 0 0 0 35px;
+    }
 
+    .scrolling-banner-left br {
+        display: block;
+    }
+}
     @media (max-width: 480px) {
 
         .left-side img {
-            display: block;
+            display: none;
+        }
+
+        .trump-carousel {
             width: 100%;
-            margin: 0;
-            padding: 0;
+            margin: 0 0 0 35px;
+        }
+
+        .kamala-carousel {
+            width: 100%;
+            margin: 0 40px 0 0 !important;
         }
 
         .candidate-slogans div {
@@ -568,5 +593,9 @@ footer {
 
         .kamala-body p {
             display: none !important;
+        }
+
+        .scrolling-banner-left br {
+            display: block;
         }
     }
