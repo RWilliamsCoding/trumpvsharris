@@ -437,20 +437,83 @@ footer {
         border-radius: 10px;
     }
 
+    #candidate-hero-img {
+        position: relative;
+        bottom: 40px;
+        justify-content: center;
+        margin: 0 0 0 60px;
+        width: 50%;
+        padding: 0;   
+    }
+
+    .candidate-slogans {
+        margin-bottom:10px;
+        text-align: center;
+    }
+
+    #carouselIndicators {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #banner {
+        margin-top: 15px;
+    }
+
     .scrolling-banner-left p, .scrolling-banner p{
         font-size: 24px;
     }
 
     .footer-nav {
-        flex-direction: inherit;
-        gap: 100px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 30px;
     }
+
+    .left-side img {
+        display:block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
     @media (max-width: 480px) {
 
+        .left-side img {
+            display: block;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .candidate-slogans div {
+            font-size: 14px;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .homepage-purpose {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0 10px;
+            font-size: 14px;
+            text-align: center;
+            width: 100%;
+        }
+
         .homepage-purpose div {
-            font-size: 18px;
+            flex: 1;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .slogan-two, .slogan-three {
+            display: none !important;
         }
 
         .scrolling-banner-left p, .scrolling-banner p {
@@ -458,19 +521,52 @@ footer {
         }
 
         #logo {
-            font-size: 180%;
+            font-size: 150%;
             text-align: center;
             margin: auto;
             display: block;
         }
 
-        .nav-bar {
+        .nav-bar a {
             font-size: 18px;
-            gap: 5px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            gap: 0px;
+            margin: 0;
+            padding: 0;
+            float: none;
+            clear: both;
+        }
+
+        .nav-bar a {
+            width: 100%;
+            text-align: left;
         }
 
         img {
             max-width: 100%;
             height: auto;
+        }
+
+        #candidate-hero-img {
+            position: relative;
+            bottom: 40px;
+            justify-content: center;
+            margin: 0 0 0 20px;
+            width: 100%;
+            padding: 0;   
+        }
+
+        .footer-nav {
+            font-size: 30px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            margin: 0 20px;
+        }
+
+        .kamala-body p {
+            display: none !important;
         }
     }
