@@ -276,7 +276,7 @@ body {
 
 .scrolling-banner-left p {
     color: #fff;
-    font-size: 64px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -497,7 +497,7 @@ footer {
         display: block;
     }
 }
-    @media (max-width: 480px) {
+    @media (max-width: 600px) {
 
         .left-side img {
             display: none;
