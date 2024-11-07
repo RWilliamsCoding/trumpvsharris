@@ -3,7 +3,7 @@
 /* ------------------------------------Main Properties-- */
 body {
     font-family: "Roboto", sans-serif;
-    color: #000;;
+    color: #000;
     height: 100%;
 }
 
@@ -380,6 +380,7 @@ footer {
 
 .footer-nav .insta {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    /* Vendor prefixes for compatibility */
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     color: #dc2743;
@@ -589,10 +590,6 @@ footer {
             align-items: center;
             justify-content: center;
             margin: 0 20px;
-        }
-
-        .kamala-body p {
-            display: none !important;
         }
 
         .scrolling-banner-left br {
