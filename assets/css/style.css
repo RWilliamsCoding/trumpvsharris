@@ -12,7 +12,7 @@ body {
     display: flex;
     margin: 50px 0 10px 0;
     padding: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -41,20 +41,21 @@ body {
     right: 5%;
     justify-content: center;
     align-items: center;
-    z-index: -1;
+    height: auto;
 }
 
 .harris-walz-logo {
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 60px;
     height: auto;
     width: 100%;
+    z-index: -1;
 }
 
 .trump-vance-logo {
-    margin-top: 100px;
-    height: auto;
-    width: 100%;
+    margin-top: 120px;
+    height: 300px;
+    width: 599px;
 }
 
 /* ------------------ Website Logo (US Election 2024) -- */
@@ -66,7 +67,7 @@ body {
     border-image: linear-gradient(to right, red, blue) 1;
     color: #000;
     font-size: 380%;
-    margin: 30px;
+    margin: 30px 0 30px 0;
 }
 
 /* -------------------------------------------Nav Bar-- */

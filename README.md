@@ -247,7 +247,7 @@ To Deploy the site using GitHub Pages, follow the below actions:
 To fork the repository, follow the below actions:
 
 1. Sign Up or Login to GitHub.
-2. Go to the repository for the project, for this one it would be [XXX](XXX).
+2. Go to the repository for the project, for this one it would be [Trump Vs Harris](https://github.com/RWilliamsCoding/trumpvsharris).
 3. Near the top of the page on the right hand side you'll see an option saying Fork, select this option.
 4. Click Create Fork.
 
@@ -256,7 +256,7 @@ To fork the repository, follow the below actions:
 To clone the repository, follow the below actions:
 
 1. Sign Up or Login to GitHub.
-2. Go to the repository for the project, for this one it would be [XXX](XXX).
+2. Go to the repository for the project, for this one it would be [Trump Vs Harris](https://github.com/RWilliamsCoding/trumpvsharris).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type "git clone" into the terminal and then paste the link you copied in step 3 and then press enter.
@@ -265,7 +265,7 @@ To clone the repository, follow the below actions:
 
 ## Testing
 
-Please refer to [XXX](XXX) file for all the testing I have carried out. In the interest of keeping this README aesthetically pleasing, I decided it would be cleaner to put all the testing in a separate folder.
+Please refer to [Lighthouse](/Testing/lighthouse/) & [W3](/Testing/W3/)file for all the testing I have carried out. In the interest of keeping this README aesthetically pleasing, I decided it would be cleaner to put all the testing in a separate folder.
 
 ### Solved Bugs
 
