@@ -1,4 +1,4 @@
-# Comparing Candidates for the 2024 U.S. Election.
+# Comparing Candidates for the 2024 U.S. Election
 
 ![Trump Vs Harris 2024 Election help on a variety of screen sizes](assets/images/multidevice.WebP)
 
@@ -8,7 +8,7 @@ Before you vote, explore detailed, fact-checked information about your candidate
 
 The US Election is one of the biggest elections in the world. 
 
-[Wikipedia](https://en.wikipedia.org/wiki/Voter_turnout_in_United_States_presidential_elections) shows over 158 Million people turning out to vote in the 2020 election. With the 2024 election possibly going to bring an even bigger turnout, it's one of the most impactful decisions you will make. The good news is we're here to help.
+[Wikipedia](https://en.wikipedia.org/wiki/Voter_turnout_in_United_States_presidential_elections) shows over 158 Million people turning out to vote in the 2020 election. With the 2024 election potentially bringing an even larger turnout, it's one of the most impactful decisions you will make. The good news is we're here to help.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/RWilliamsCoding/trumpvsharris?style=for-the-badge&labelColor=grey&color=red)
 ![GitHub contributors](https://img.shields.io/github/contributors/RWilliamsCoding/trumpvsharris?style=for-the-badge&labelColor=grey&color=orange)
@@ -67,7 +67,7 @@ The US Election is one of the biggest elections in the world.
    *  I want to know more about the candidates that are running in the US election 2024. I want it to be easy to understand. I want it to be fact checked. I want to be able to compare both side by side.
    *  I want the site to be responsive, so that I am able to look at it when at home by my desktop computer or out and about on my mobile phone.
    *  I want the site to be easy to navigate and to let me know what page of the site am I on.
-   * I also want the site to be accessible friendly such as alt texts and contrast of colours.
+   *  I want the site to be accessible, including alt texts and high-contrast colors.
 
 #### Returning Visitor Goals
 
@@ -89,8 +89,8 @@ As the hero image on the page is of the United States flag which is red white an
 In my css file, you will see I have used the below colours:
 
    * #000 - was used for the text in the overall design, minus some of the headings like the pros and cons.
-   * #c6192d - Was used for anything connected to Donald Trump. As he is a Democrat I thought it would be a good UX to give him the republican red. 
-   * #154fd7 - Was used for anything connected to Kamala Harris. As she is a Democrat I thought it would be a good UX to give her the democratic blue.
+   * #c6192d - Was used for anything connected to Donald Trump. As he is a Republican, I thought it would be good UX to give him the Republican red. 
+   * #154fd7 - Was used for anything connected to Kamala Harris. As she is a Democrat, I thought it would be good UX to give her the Democratic blue.
    * linear-gradient to right red to blue (for gradient underline headings) - This was used for undeline headings on the logo and nav bar. It covers both parties going from a red to a blue.
    * #4267B2 for Facebook icon
    * #000 for X icon
@@ -108,7 +108,7 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 As the website is called US Election 2024, I wanted to go for a patriotic hero image for the Home page, which is why I've gone for the classic american flag.
 
-I also wanted to keep the reasoning for the site obvious, in the interest of UX, which is why on the home page I have also used a Trump Vs. Kamala side by side. Then split this image up for consistency on their individual pages.
+I also wanted to keep the reasoning for the site obvious, in the interest of UX, which is why on the Home page, I have also used a Trump vs. Kamala side-by-side image. Then split this image up for consistency on their individual pages.
 
 ### Wireframes
 
@@ -134,23 +134,23 @@ All pages are responsive for mobiles, tablets & desktop computers with max width
 
 #### The Home Page
 
-The home page of Trump Vs Kamala 2024 displays a logo saying "US Election 2024" with a navigation bar directly beside it. Below this is a hero banner image of an American flag. Then there is a site purpose instruction below the hero image. The main body of the home page is a centered image of trump and harris facing off in front of the washington monument. Either side of the image displays pros and cons with links and fact checks. I have put Kamala Harris on the left and Donald Trump on the right, mirroring the political side they stand on.
+The home page of Trump Vs Kamala 2024 displays a logo saying "US Election 2024" with a navigation bar directly beside it. Below this is a hero banner image of an American flag. Then there is a site purpose instruction below the hero image. The main body of the Home page is a centered image of Trump and Harris facing off in front of the Washington Monument. Either side of the image displays pros and cons with links and fact checks. I have put Kamala Harris on the left and Donald Trump on the right, mirroring the political side they stand on.
 
 As I want to keep the site informative but minimalistic in the interest of UX, the last part of the home page will be the footer. On the footer it will have a breaking news scrolling banner and links to social media.
 
 #### The Donald Trump Page
 
-The Donald Trump page will have the same logo and nav bar that is displayed across the top of every page for consistency. Below this will be the TRUMP / VANCE image logo. The background color will be white and the font will be Blue for Trump and Red for Vance, it will also contain the slogan Make America Great Again, with a solid red border and a break at the bottom which will include the text 2024 in blue. This is for consistency to what the user would see everywhere else.
+The Donald Trump page will have the same logo and nav bar that is displayed across the top of every page for consistency. Below this will be the TRUMP / VANCE image logo. The background color will be white, and the font will be blue for Trump and red for Vance. It will also contain the slogan ‘Make America Great Again’ with a solid red border and ‘2024’ in blue at the bottom. This is for consistency to what the user would see everywhere else.
 
 Below the banner, in replace of the site purpose instructions, it will show a motivational quote spoken by Donald Trump.
 
-Below the slogan/quote will have a picture of Donald Trump on the right and then a carousel on the left with forward and backward buttons. The carousel will show 5 celebrity endorsements give to Donald Trump by various.
+Below the slogan/quote will have a picture of Donald Trump on the right and then a carousel on the left with forward and backward buttons. The carousel will show 5 celebrity endorsements given to Donald Trump by various public figures.
 
 For consistency, at the bottom of the page will be the same footer as is also across every other page. The only differences are social links to follow Donald Trump and a link to donate to Donald Trumps campaign and also different messages on the breaking news banner.
 
 #### The Kamala Harris Page
 
-The structure of this page will follow the Donald Trump page with a logo and nav bar at the top. Then below will be the Harris / Walz image logo. Background color will be white, Harris and Walz text will be Blue.
+The structure of this page will follow the Donald Trump page with a logo and nav bar at the top. Then below will be the Harris / Walz image logo. The background color will be white, with Harris and Walz text in blue.
 
 Below the banner will be the motivational quotes/slogans for Kamala Harris
 
@@ -164,9 +164,9 @@ The top of the page for UX and consistency will have the logo and the nav bar sh
 
 Below this will be a banner with the image of the american flag, the same hero image that is on the home page.
 
-Below the nav bar will be a form with inputs for First Name, Last Name, Email and text asking the user to select who would they vote for?
+Below the nav bar will be a form with inputs for First Name, Last Name, Email, and a question asking the user who they would vote for.
 
-Alongside the text will have a container with 3 radio buttons. One for Kamala Harris, one for Donald Trump & for comedic value there will be a disabled radio button for Joe Biden, who dropped out of the race.
+Alongside the question, there will be a container with 3 radio buttons: one for Kamala Harris, one for Donald Trump, and for comedic value, a disabled radio button for Joe Biden, who dropped out of the race.
 
 Lastly will be a blue submit button with the pseudo hover class.
 
@@ -178,17 +178,17 @@ In future I would like to:
 
 1. Allow users to see live results on the poll page as soon as they select a candidate.
 2. Create a backend AI script to update the top 5 criticisms of each candidate after any event such as public debates or rallies etc... this could be pulled from viral moments across any social media.
-3. Lastly I would like to increase accessibility with speech to text and also screen reader using the pseudo element Hover.
+3. Also screen reader compatibility using hover effects.
  
 
 ### Accessibility 
 
 I have ensured to keep accessibility at the forefront when writing my code. I wanted to do this so that the site is accessible friendly. The below are some of the things I've implemented:
 
-* Using Roboto font across the site with a backup of Sans-Sarif which is known to be dyslexia-friendly due to clear letter shapes, generous spacing and uniformity.
+* Using Roboto font across the site with a backup of sans-serif, which is known to be dyslexia-friendly due to clear letter shapes, generous spacing and uniformity.
 * Using alt text on any images.
 * Using aria-label on any links.
-* The site mainly uses Red & Blue as it's primary colors which is a palette known to be color-blind-friendly.
+* The site mainly uses red and blue as its primary colors, which is a palette known to be color-blind-friendly.
 
 ---
 
@@ -265,7 +265,7 @@ To clone the repository, follow the below actions:
 
 ## Testing
 
-Please refer to [Lighthouse](/Testing/lighthouse/) & [W3](/Testing/W3/)file for all the testing I have carried out. In the interest of keeping this README aesthetically pleasing, I decided it would be cleaner to put all the testing in a separate folder.
+Please refer to [Lighthouse](/testing/lighthouse/) & [W3](/testing/W3/) file for all the testing I have carried out. In the interest of keeping this README aesthetically pleasing, I decided it would be cleaner to put all the testing in a separate folder.
 
 ### Solved Bugs
 
@@ -283,11 +283,11 @@ Please refer to [Lighthouse](/Testing/lighthouse/) & [W3](/Testing/W3/)file for 
 
 ### Known Bugs
 
-* The placeholder width on the form section of the poll page, I can't seem to get to align with the submit button. 
+* I can’t seem to align the placeholder width in the form section of the poll page with the submit button.
 
-* There is a CSS error on the console saying that the background clip needs to be defined for compatibility but the clip is the for instagram icon which is defined and working fine with no issues.
+* There is a CSS error on the console saying that the background clip needs to be defined for compatibility, but it is already defined for the Instagram icon which is working with no issues.
 
-[Console Warning for CSS](documentation/known-bugs/cssbug.jpeg)
+[Console Warning for CSS](/testing/known-bugs/cssbug.jpeg)
 
 ---
 
