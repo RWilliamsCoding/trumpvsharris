@@ -1,6 +1,6 @@
 # Comparing Candidates for the 2024 U.S. Election.
 
-![Trump Vs Harris 2024 Election help on a variety of screen sizes](assets/images/multidevice.jpeg)
+![Trump Vs Harris 2024 Election help on a variety of screen sizes](assets/images/multidevice.WebP)
 
 Visit the deployed site: [trumpvsharris2024](XXX)
 
@@ -234,7 +234,7 @@ The site is deployed using GitHub Pages - [XXX](XXX)
 To Deploy the site using GitHub Pages, follow the below actions:
 
 1. Sign Up or Login to GitHub.
-2. Go to the repository for the project, for this project it would be [XXX](XXX).
+2. Go to the repository for the project, for this project it would be [Trump Vs Harris](https://github.com/RWilliamsCoding/trumpvsharris).
 3. Click the settings buttons at the top of the page on the nav bar.
 4. In the left hand nav menu, select Pages.
 5. Under the source heading, select Deploy from a branch.
