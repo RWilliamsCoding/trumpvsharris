@@ -268,8 +268,8 @@ To clone the repository, follow the below actions:
 Please refer to [Lighthouse](/testing/lighthouse/) & [W3](/testing/W3/) file for all the testing I have carried out. In the interest of keeping this README aesthetically pleasing, I decided it would be cleaner to put all the testing in a separate folder.
 
 ### User Story-Based Manual Testing
-| Page | User Story | Expected | Tested | Expected | Result | Fix |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Page | User Story | Expected | Tested | Result | Fix |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | Poll | As a frequent visitor, I want to submit my vote in the poll. | Form submits successfully when all fields are filled in and a candidate is selected. | Entered "John", "Doe", "john@example.com", selected "Donald Trump", clicked submit. | Form redirected to FormDump confirmation page. | N/A |
 | Poll | As a frequent visitor, I want to be alerted when my email is invalid | Form should prevent submission and prompt the user to fix the email address. | Entered "John", "Doe", "John@", selected "Kamala Harris", clicked submit. | HTML5 validation blocked submission. | N/A |
 | Index | As a first time visitor, I want to compare the pros and cons of candidates.| Each section shows candidate name, pros, cons, and fact-checked links. | Scrolled through the index page, verified content visibility and link clickability. | All sections appeared as intended with working links. | N/A |
